@@ -25,7 +25,7 @@ OCR, Computer Vision, OpenCV, Finetuning models
 3.Platform: Google Colab
 
 # Installation and Usage
-1.Install Required Packages:
+#1.Install Required Packages:
 
 !apt-get install -y poppler-utils
 !apt-get install -y tesseract-ocr
@@ -36,7 +36,7 @@ OCR, Computer Vision, OpenCV, Finetuning models
 Set Up Tesseract Path:
 
 
-2.Ensure the path for Tesseract OCR is set in your script. For Google Colab, it is typically:
+#2.Ensure the path for Tesseract OCR is set in your script. For Google Colab, it is typically:
 
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 Upload Files:
